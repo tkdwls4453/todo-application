@@ -22,7 +22,7 @@ public class TodoController {
 
     @GetMapping
     public ResponseEntity<List<Todo>> getAllTodo() {
-        return ResponseEntity.status(HttpStatus.CREATED).build();
+        return ResponseEntity.status(HttpStatus.OK).build();
     }
 
     @GetMapping("/test")
