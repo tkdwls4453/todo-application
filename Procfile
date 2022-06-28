@@ -1,1 +1,1 @@
-web: java -jar server-app-0.0.1-SNAPSHOT.jar
+web: java -jar todo-application-prod-ebextensions-1.jar
