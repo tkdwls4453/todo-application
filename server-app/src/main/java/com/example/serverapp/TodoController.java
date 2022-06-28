@@ -22,11 +22,12 @@ public class TodoController {
 
     @GetMapping
     public ResponseEntity<List<Todo>> getAllTodo() {
-        return ResponseEntity.ok(todoService.getAllTodo());
+        return ResponseEntity.status(HttpStatus.CREATED).build();
     }
 
     @GetMapping("/test")
     public String test(){
         return "test";
     }
+
 }
